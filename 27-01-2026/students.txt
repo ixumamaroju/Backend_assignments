@@ -1,0 +1,6 @@
+1,Uma   sri,25
+2,Ravi  kumar,23
+3,Raju varma,24
+x,Dhana,21
+y,Ani,25
+3,Raju varma,24
