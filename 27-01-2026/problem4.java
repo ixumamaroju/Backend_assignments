@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class problem4 {
     public static void main(String[] args) {
-        String[] inputs={"10","-5","25.5","150","abc","30.5"};
+        String[] inputs={"10","-5","25.5","150","abc","30.5","ab.c"};
 
         ArrayList<Number> numberlist = new ArrayList<>();
         for(String input:inputs){
@@ -24,8 +24,6 @@ public class problem4 {
         double doublesum=0.0;
         int doublecount=0;
      for (Number num : numberlist) {
-
-           
             if (num instanceof Integer) {
                 intsum += num.intValue();
             } else if (num instanceof Double) {
