@@ -15,8 +15,7 @@ public class StudentController {
     private StudentRepository studentRepository;
 
     @PostMapping
-    public Student addStudennt(@RequestBody Student student) {
-        return studentRepository.save(student);
+    public Student addStudennt(@RequestBody Student student) {return studentRepository.save(student);
     }
 
     @GetMapping
